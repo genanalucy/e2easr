@@ -1030,8 +1030,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BBZSxy_AsUfoYLKnd2aF-18" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="630" width="401" x="149" y="90" as="geometry" />
+        <mxCell id="TldPX0s9REGrZK_UteJD-1" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="680" width="431" x="198" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BBZSxy_AsUfoYLKnd2aF-18" connectable="0" parent="TldPX0s9REGrZK_UteJD-1" style="group" value="" vertex="1">
+          <mxGeometry height="630" width="401" x="15" y="50" as="geometry" />
         </mxCell>
         <mxCell id="BBZSxy_AsUfoYLKnd2aF-2" parent="BBZSxy_AsUfoYLKnd2aF-18" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#666666;fontSize=15;" value="输入语音特征&#xa;Input Speech Features" vertex="1">
           <mxGeometry height="48.774193548387096" width="166.45283018867926" x="121.05660377358491" as="geometry" />
@@ -1075,8 +1078,8 @@
         <mxCell id="BBZSxy_AsUfoYLKnd2aF-16" edge="1" parent="BBZSxy_AsUfoYLKnd2aF-18" source="BBZSxy_AsUfoYLKnd2aF-8" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="BBZSxy_AsUfoYLKnd2aF-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BBZSxy_AsUfoYLKnd2aF-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontStyle=1;fontSize=26;" value="Transformer 编码器结构示意图" vertex="1">
-          <mxGeometry height="30" width="431" x="134" y="50" as="geometry" />
+        <mxCell id="BBZSxy_AsUfoYLKnd2aF-19" parent="TldPX0s9REGrZK_UteJD-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontStyle=1;fontSize=26;" value="Transformer 编码器结构示意图" vertex="1">
+          <mxGeometry height="30" width="431" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1086,49 +1089,52 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="T4vMqZ9CMN0DkcUbWQid-1" parent="1" style="text;html=1;fontSize=20;fontStyle=1;align=center;strokeColor=none;fillColor=none;" value="Conformer 编码器结构示意图&#xa;Conformer Encoder Architecture" vertex="1">
-          <mxGeometry height="50" width="660" x="210" y="20" as="geometry" />
+        <mxCell id="T7nLc-S0C5fMYaE2ElnW-1" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="760" width="480" x="174" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="T4vMqZ9CMN0DkcUbWQid-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#666666;fontSize=15;" value="输入语音特征&#xa;Input Speech Features" vertex="1">
-          <mxGeometry height="60" width="220" x="430" y="100" as="geometry" />
+        <mxCell id="T4vMqZ9CMN0DkcUbWQid-1" parent="T7nLc-S0C5fMYaE2ElnW-1" style="text;html=1;fontSize=20;fontStyle=1;align=center;strokeColor=none;fillColor=none;" value="Conformer 编码器结构示意图&#xa;Conformer Encoder Architecture" vertex="1">
+          <mxGeometry height="48.71794871794872" width="480" as="geometry" />
         </mxCell>
-        <mxCell id="T4vMqZ9CMN0DkcUbWQid-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6C8EBF;strokeWidth=2;fontStyle=1;fontSize=16;verticalAlign=top;spacingTop=8;align=left;spacingLeft=23;" value="Conformer 编码器层&#xa;Conformer Encoder Layer" vertex="1">
-          <mxGeometry height="530" width="520" x="280" y="190" as="geometry" />
+        <mxCell id="T4vMqZ9CMN0DkcUbWQid-2" parent="T7nLc-S0C5fMYaE2ElnW-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#666666;fontSize=15;" value="输入语音特征&#xa;Input Speech Features" vertex="1">
+          <mxGeometry height="58.46153846153845" width="160" x="160" y="77.94871794871794" as="geometry" />
         </mxCell>
-        <mxCell id="T4vMqZ9CMN0DkcUbWQid-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#D79B00;fontSize=15;" value="前馈网络（半步残差）&#xa;Feed Forward Module (1/2 Step Residual)" vertex="1">
-          <mxGeometry height="70" width="340" x="370" y="240" as="geometry" />
+        <mxCell id="T4vMqZ9CMN0DkcUbWQid-3" parent="T7nLc-S0C5fMYaE2ElnW-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6C8EBF;strokeWidth=2;fontStyle=1;fontSize=13;verticalAlign=top;spacingTop=8;align=left;spacingLeft=23;" value="Conformer 编码器层&#xa;Conformer Encoder Layer" vertex="1">
+          <mxGeometry height="516.4102564102564" width="378.18181818181813" x="50.90909090909091" y="165.6410256410256" as="geometry" />
         </mxCell>
-        <mxCell id="T4vMqZ9CMN0DkcUbWQid-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE6F1;strokeColor=#6C8EBF;fontSize=15;" value="多头自注意力&#xa;Multi-Head Self-Attention" vertex="1">
-          <mxGeometry height="70" width="340" x="370" y="340" as="geometry" />
+        <mxCell id="T4vMqZ9CMN0DkcUbWQid-4" parent="T7nLc-S0C5fMYaE2ElnW-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#D79B00;fontSize=15;" value="前馈网络（半步残差）&#xa;Feed Forward Module (1/2 Step Residual)" vertex="1">
+          <mxGeometry height="68.20512820512819" width="247.27272727272725" x="116.36363636363635" y="214.35897435897434" as="geometry" />
         </mxCell>
-        <mxCell id="T4vMqZ9CMN0DkcUbWQid-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#82B366;fontSize=15;" value="卷积模块&#xa;Convolution Module" vertex="1">
-          <mxGeometry height="70" width="340" x="370" y="440" as="geometry" />
+        <mxCell id="T4vMqZ9CMN0DkcUbWQid-5" parent="T7nLc-S0C5fMYaE2ElnW-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE6F1;strokeColor=#6C8EBF;fontSize=15;" value="多头自注意力&#xa;Multi-Head Self-Attention" vertex="1">
+          <mxGeometry height="68.20512820512819" width="247.27272727272725" x="116.36363636363635" y="311.79487179487177" as="geometry" />
         </mxCell>
-        <mxCell id="T4vMqZ9CMN0DkcUbWQid-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#D79B00;fontSize=15;" value="前馈网络（半步残差）&#xa;Feed Forward Module (1/2 Step Residual)" vertex="1">
-          <mxGeometry height="70" width="340" x="370" y="540" as="geometry" />
+        <mxCell id="T4vMqZ9CMN0DkcUbWQid-6" parent="T7nLc-S0C5fMYaE2ElnW-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#82B366;fontSize=15;" value="卷积模块&#xa;Convolution Module" vertex="1">
+          <mxGeometry height="68.20512820512819" width="247.27272727272725" x="116.36363636363635" y="409.2307692307692" as="geometry" />
         </mxCell>
-        <mxCell id="T4vMqZ9CMN0DkcUbWQid-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#999999;fontSize=15;" value="层归一化&#xa;Layer Normalization" vertex="1">
-          <mxGeometry height="60" width="280" x="400" y="640" as="geometry" />
+        <mxCell id="T4vMqZ9CMN0DkcUbWQid-7" parent="T7nLc-S0C5fMYaE2ElnW-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#D79B00;fontSize=15;" value="前馈网络（半步残差）&#xa;Feed Forward Module (1/2 Step Residual)" vertex="1">
+          <mxGeometry height="68.20512820512819" width="247.27272727272725" x="116.36363636363635" y="506.66666666666663" as="geometry" />
         </mxCell>
-        <mxCell id="T4vMqZ9CMN0DkcUbWQid-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#666666;fontSize=15;" value="编码输出表示&#xa;Encoded Representations" vertex="1">
-          <mxGeometry height="60" width="220" x="430" y="740" as="geometry" />
+        <mxCell id="T4vMqZ9CMN0DkcUbWQid-8" parent="T7nLc-S0C5fMYaE2ElnW-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#999999;fontSize=15;" value="层归一化&#xa;Layer Normalization" vertex="1">
+          <mxGeometry height="58.46153846153845" width="203.63636363636363" x="138.1818181818182" y="604.1025641025641" as="geometry" />
         </mxCell>
-        <mxCell id="T4vMqZ9CMN0DkcUbWQid-12" edge="1" parent="1" source="T4vMqZ9CMN0DkcUbWQid-2" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="T4vMqZ9CMN0DkcUbWQid-4">
+        <mxCell id="T4vMqZ9CMN0DkcUbWQid-9" parent="T7nLc-S0C5fMYaE2ElnW-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#666666;fontSize=15;" value="编码输出表示&#xa;Encoded Representations" vertex="1">
+          <mxGeometry height="58.46153846153845" width="160" x="160" y="701.5384615384615" as="geometry" />
+        </mxCell>
+        <mxCell id="T4vMqZ9CMN0DkcUbWQid-12" edge="1" parent="T7nLc-S0C5fMYaE2ElnW-1" source="T4vMqZ9CMN0DkcUbWQid-2" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="T4vMqZ9CMN0DkcUbWQid-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T4vMqZ9CMN0DkcUbWQid-13" edge="1" parent="1" source="T4vMqZ9CMN0DkcUbWQid-4" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="T4vMqZ9CMN0DkcUbWQid-5">
+        <mxCell id="T4vMqZ9CMN0DkcUbWQid-13" edge="1" parent="T7nLc-S0C5fMYaE2ElnW-1" source="T4vMqZ9CMN0DkcUbWQid-4" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="T4vMqZ9CMN0DkcUbWQid-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T4vMqZ9CMN0DkcUbWQid-14" edge="1" parent="1" source="T4vMqZ9CMN0DkcUbWQid-5" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="T4vMqZ9CMN0DkcUbWQid-6">
+        <mxCell id="T4vMqZ9CMN0DkcUbWQid-14" edge="1" parent="T7nLc-S0C5fMYaE2ElnW-1" source="T4vMqZ9CMN0DkcUbWQid-5" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="T4vMqZ9CMN0DkcUbWQid-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T4vMqZ9CMN0DkcUbWQid-15" edge="1" parent="1" source="T4vMqZ9CMN0DkcUbWQid-6" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="T4vMqZ9CMN0DkcUbWQid-7">
+        <mxCell id="T4vMqZ9CMN0DkcUbWQid-15" edge="1" parent="T7nLc-S0C5fMYaE2ElnW-1" source="T4vMqZ9CMN0DkcUbWQid-6" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="T4vMqZ9CMN0DkcUbWQid-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T4vMqZ9CMN0DkcUbWQid-16" edge="1" parent="1" source="T4vMqZ9CMN0DkcUbWQid-7" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="T4vMqZ9CMN0DkcUbWQid-8">
+        <mxCell id="T4vMqZ9CMN0DkcUbWQid-16" edge="1" parent="T7nLc-S0C5fMYaE2ElnW-1" source="T4vMqZ9CMN0DkcUbWQid-7" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="T4vMqZ9CMN0DkcUbWQid-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T4vMqZ9CMN0DkcUbWQid-17" edge="1" parent="1" source="T4vMqZ9CMN0DkcUbWQid-8" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="T4vMqZ9CMN0DkcUbWQid-9">
+        <mxCell id="T4vMqZ9CMN0DkcUbWQid-17" edge="1" parent="T7nLc-S0C5fMYaE2ElnW-1" source="T4vMqZ9CMN0DkcUbWQid-8" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="T4vMqZ9CMN0DkcUbWQid-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
