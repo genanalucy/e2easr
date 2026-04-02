@@ -1026,15 +1026,51 @@
     </mxGraphModel>
   </diagram>
   <diagram id="P6Z4zipaIK0iCjBsZpT-" name="第 9 页">
-    <mxGraphModel dx="1773" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1233" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TldPX0s9REGrZK_UteJD-1" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="680" width="431" x="198" y="80" as="geometry" />
+        <mxCell id="t7AfcLJT71qn8InaF0pp-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#666666;fontSize=15;" value="输入语音特征&#xa;Input Speech Features" vertex="1">
+          <mxGeometry height="52.3076923076923" width="123.33333333333334" x="543.3333333333334" y="139.74358974358972" as="geometry" />
         </mxCell>
-        <mxCell id="BBZSxy_AsUfoYLKnd2aF-18" connectable="0" parent="TldPX0s9REGrZK_UteJD-1" style="group" value="" vertex="1">
-          <mxGeometry height="630" width="401" x="15" y="50" as="geometry" />
+        <mxCell id="t7AfcLJT71qn8InaF0pp-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#D79B00;fontSize=15;" value="前馈网络（半步残差）&#xa;Feed Forward Module (1/2 Step Residual)" vertex="1">
+          <mxGeometry height="61.025641025641015" width="190.6060606060606" x="509.6969696969697" y="261.79487179487177" as="geometry" />
+        </mxCell>
+        <mxCell id="t7AfcLJT71qn8InaF0pp-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE6F1;strokeColor=#6C8EBF;fontSize=15;" value="多头自注意力&#xa;Multi-Head Self-Attention" vertex="1">
+          <mxGeometry height="61.025641025641015" width="190.6060606060606" x="509.6969696969697" y="348.97435897435895" as="geometry" />
+        </mxCell>
+        <mxCell id="t7AfcLJT71qn8InaF0pp-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#82B366;fontSize=15;" value="卷积模块&#xa;Convolution Module" vertex="1">
+          <mxGeometry height="61.025641025641015" width="190.6060606060606" x="509.6969696969697" y="436.15384615384613" as="geometry" />
+        </mxCell>
+        <mxCell id="t7AfcLJT71qn8InaF0pp-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#D79B00;fontSize=15;" value="前馈网络（半步残差）&#xa;Feed Forward Module (1/2 Step Residual)" vertex="1">
+          <mxGeometry height="61.025641025641015" width="190.6060606060606" x="509.6969696969697" y="523.3333333333333" as="geometry" />
+        </mxCell>
+        <mxCell id="t7AfcLJT71qn8InaF0pp-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#999999;fontSize=15;" value="层归一化&#xa;Layer Normalization" vertex="1">
+          <mxGeometry height="52.3076923076923" width="156.96969696969697" x="526.5151515151515" y="610.5128205128206" as="geometry" />
+        </mxCell>
+        <mxCell id="t7AfcLJT71qn8InaF0pp-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#666666;fontSize=15;" value="编码输出表示&#xa;Encoded Representations" vertex="1">
+          <mxGeometry height="52.3076923076923" width="123.33333333333334" x="543.3333333333334" y="697.6923076923077" as="geometry" />
+        </mxCell>
+        <mxCell id="t7AfcLJT71qn8InaF0pp-11" edge="1" parent="1" source="t7AfcLJT71qn8InaF0pp-3" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="t7AfcLJT71qn8InaF0pp-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7AfcLJT71qn8InaF0pp-12" edge="1" parent="1" source="t7AfcLJT71qn8InaF0pp-5" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="t7AfcLJT71qn8InaF0pp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7AfcLJT71qn8InaF0pp-13" edge="1" parent="1" source="t7AfcLJT71qn8InaF0pp-6" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="t7AfcLJT71qn8InaF0pp-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7AfcLJT71qn8InaF0pp-14" edge="1" parent="1" source="t7AfcLJT71qn8InaF0pp-7" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="t7AfcLJT71qn8InaF0pp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7AfcLJT71qn8InaF0pp-15" edge="1" parent="1" source="t7AfcLJT71qn8InaF0pp-8" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="t7AfcLJT71qn8InaF0pp-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7AfcLJT71qn8InaF0pp-16" edge="1" parent="1" source="t7AfcLJT71qn8InaF0pp-9" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="t7AfcLJT71qn8InaF0pp-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BBZSxy_AsUfoYLKnd2aF-18" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="630" width="401" x="25" y="130" as="geometry" />
         </mxCell>
         <mxCell id="BBZSxy_AsUfoYLKnd2aF-2" parent="BBZSxy_AsUfoYLKnd2aF-18" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#666666;fontSize=15;" value="输入语音特征&#xa;Input Speech Features" vertex="1">
           <mxGeometry height="48.774193548387096" width="166.45283018867926" x="121.05660377358491" as="geometry" />
@@ -1078,8 +1114,17 @@
         <mxCell id="BBZSxy_AsUfoYLKnd2aF-16" edge="1" parent="BBZSxy_AsUfoYLKnd2aF-18" source="BBZSxy_AsUfoYLKnd2aF-8" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="BBZSxy_AsUfoYLKnd2aF-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BBZSxy_AsUfoYLKnd2aF-19" parent="TldPX0s9REGrZK_UteJD-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontStyle=1;fontSize=26;" value="Transformer 编码器结构示意图" vertex="1">
-          <mxGeometry height="30" width="431" as="geometry" />
+        <mxCell id="BBZSxy_AsUfoYLKnd2aF-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=none;fontStyle=1;fontSize=20;fontFamily=Helvetica;fontColor=default;" value="Transformer 编码器结构示意图&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Transformer&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 20px; text-wrap-mode: nowrap;&quot;&gt;Encoder Architecture&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="431" x="10" y="83.59" as="geometry" />
+        </mxCell>
+        <mxCell id="t7AfcLJT71qn8InaF0pp-17" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="610.26" width="410" x="390" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="t7AfcLJT71qn8InaF0pp-2" parent="t7AfcLJT71qn8InaF0pp-17" style="text;html=1;fontSize=20;fontStyle=1;align=center;strokeColor=none;fillColor=none;" value="Conformer 编码器结构示意图&#xa;Conformer Encoder Architecture" vertex="1">
+          <mxGeometry height="43.59000000000001" width="409.99999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="t7AfcLJT71qn8InaF0pp-4" parent="t7AfcLJT71qn8InaF0pp-17" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6C8EBF;strokeWidth=2;fontStyle=1;fontSize=13;verticalAlign=top;spacingTop=8;align=left;spacingLeft=4;" value="Conformer 编码器层&#xa;Conformer Encoder Layer" vertex="1">
+          <mxGeometry height="462.05400000000003" width="323.030303030303" x="43.48484848484849" y="148.20600000000002" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
