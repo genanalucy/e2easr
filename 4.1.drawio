@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" pages="12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" pages="13">
   <diagram name="第 1 页" id="Qb6zWLMfGYUqClHvOK_W">
     <mxGraphModel dx="1893" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1301,6 +1301,116 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UnBI8bY6PbwtUr9Uuemo-22" edge="1" parent="UnBI8bY6PbwtUr9Uuemo-23" source="UnBI8bY6PbwtUr9Uuemo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;endArrow=block;endFill=1;" target="UnBI8bY6PbwtUr9Uuemo-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="oDAC5KKuEcChHi1nPcuU" name="第 13 页">
+    <mxGraphModel dx="2182" dy="1212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="49vyqumV_K5zhQudX8Eo-27" connectable="0" parent="1" style="group;fontSize=7;" value="" vertex="1">
+          <mxGeometry height="860" width="640" x="70" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-1" parent="49vyqumV_K5zhQudX8Eo-27" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#000000;" value="HuBERT 预训练结构示意图&#xa;HuBERT Pre-training Architecture" vertex="1">
+          <mxGeometry height="63.63636363636364" width="409.25170068027205" x="125.38775510204081" as="geometry" />
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-2" parent="49vyqumV_K5zhQudX8Eo-27" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#8c8c8c;fillColor=#eeeeee;fontSize=15;align=center;verticalAlign=middle;" value="原始语音信号&#xa;Raw Audio Signal" vertex="1">
+          <mxGeometry height="72.72727272727273" width="226.39455782312922" x="335.2380952380952" y="81.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-3" parent="49vyqumV_K5zhQudX8Eo-27" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#8c8c8c;fillColor=#eeeeee;fontSize=15;align=center;verticalAlign=middle;" value="卷积特征编码器&#xa;Convolutional Feature Encoder" vertex="1">
+          <mxGeometry height="78.18181818181817" width="330.88435374149657" x="282.99319727891157" y="204.54545454545453" as="geometry" />
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-4" parent="49vyqumV_K5zhQudX8Eo-27" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;strokeColor=#6c8ebf;strokeWidth=2;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="325.45454545454544" width="420.1360544217687" x="219.86394557823127" y="310.9090909090909" as="geometry" />
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-5" parent="49vyqumV_K5zhQudX8Eo-27" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=16;fontStyle=1;fontColor=#000000;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;HuBERT 编码与预测过程&lt;br&gt;HuBERT Encoding and Prediction&lt;/font&gt;" vertex="1">
+          <mxGeometry height="36.36363636363637" width="217.68707482993196" x="235.00081632653058" y="319.9981818181818" as="geometry" />
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-6" parent="49vyqumV_K5zhQudX8Eo-27" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#6c8ebf;fillColor=#dbe5f1;fontSize=15;align=center;verticalAlign=middle;" value="潜在声学表示 z&#xa;Latent Acoustic Representations z" vertex="1">
+          <mxGeometry height="67.27272727272727" width="313.469387755102" x="291.7006802721088" y="372.7272727272727" as="geometry" />
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-7" parent="49vyqumV_K5zhQudX8Eo-27" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#d79b00;fillColor=#fce5cd;fontSize=15;align=center;verticalAlign=middle;" value="掩码操作&#xa;Masking" vertex="1">
+          <mxGeometry height="63.63636363636364" width="208.97959183673467" x="343.9455782312925" y="468.18181818181813" as="geometry" />
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-8" parent="49vyqumV_K5zhQudX8Eo-27" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#82b366;fillColor=#d5e8d4;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" value="Transformer / BERT 编码器&#xa;Transformer / BERT Encoder" vertex="1">
+          <mxGeometry height="65.45454545454545" width="339.59183673469386" x="278.6394557823129" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-9" parent="49vyqumV_K5zhQudX8Eo-27" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#8c8c8c;fillColor=#eeeeee;fontSize=14;align=center;verticalAlign=middle;" value="声学特征 / 上一轮表示&#xa;Acoustic Features / Previous-layer Features" vertex="1">
+          <mxGeometry height="70.9090909090909" width="208.97959183673467" x="4.353741496598639" y="208.18181818181816" as="geometry" />
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-10" parent="49vyqumV_K5zhQudX8Eo-27" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#9673a6;fillColor=#e1d5e7;fontSize=14;align=center;verticalAlign=middle;" value="离线聚类（如 K-means）&#xa;Offline Clustering (e.g., K-means)" vertex="1">
+          <mxGeometry height="74.54545454545455" width="217.68707482993196" y="363.63636363636357" as="geometry" />
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-11" parent="49vyqumV_K5zhQudX8Eo-27" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#82b366;fillColor=#d5e8d4;fontSize=14;align=center;verticalAlign=middle;" value="伪标签 / 隐藏单元&#xa;Pseudo Labels / Hidden Units" vertex="1">
+          <mxGeometry height="74.54545454545455" width="217.68707482993196" y="513.6363636363636" as="geometry" />
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-12" parent="49vyqumV_K5zhQudX8Eo-27" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#8c8c8c;fillColor=#eeeeee;fontSize=15;align=center;verticalAlign=middle;" value="上下文表示&#xa;Context Representations" vertex="1">
+          <mxGeometry height="74.54545454545455" width="226.39455782312922" x="335.2380952380952" y="663.6363636363636" as="geometry" />
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-13" parent="49vyqumV_K5zhQudX8Eo-27" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#d79b00;fillColor=#fce5cd;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" value="被遮蔽区域隐藏单元预测&#xa;Masked Hidden Unit Prediction" vertex="1">
+          <mxGeometry height="78.18181818181817" width="269.93197278911566" x="313.469387755102" y="781.8181818181818" as="geometry" />
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-15" edge="1" parent="49vyqumV_K5zhQudX8Eo-27" source="49vyqumV_K5zhQudX8Eo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#000000;endArrow=block;endFill=1;" target="49vyqumV_K5zhQudX8Eo-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="475.4285714285714" y="189.84547461368652" />
+              <mxPoint x="475.4285714285714" y="189.84547461368652" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-16" edge="1" parent="49vyqumV_K5zhQudX8Eo-27" source="49vyqumV_K5zhQudX8Eo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#000000;endArrow=block;endFill=1;" target="49vyqumV_K5zhQudX8Eo-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="475.4285714285714" y="332.2295805739514" />
+              <mxPoint x="475.4285714285714" y="332.2295805739514" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-17" edge="1" parent="49vyqumV_K5zhQudX8Eo-27" source="49vyqumV_K5zhQudX8Eo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#000000;endArrow=block;endFill=1;" target="49vyqumV_K5zhQudX8Eo-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="475.4285714285714" y="455.6291390728477" />
+              <mxPoint x="475.4285714285714" y="455.6291390728477" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-18" edge="1" parent="49vyqumV_K5zhQudX8Eo-27" source="49vyqumV_K5zhQudX8Eo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#000000;endArrow=block;endFill=1;" target="49vyqumV_K5zhQudX8Eo-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="475.4285714285714" y="541.0596026490066" />
+              <mxPoint x="475.4285714285714" y="541.0596026490066" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-19" edge="1" parent="49vyqumV_K5zhQudX8Eo-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#000000;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475.4250884353741" y="615.4545454545455" as="sourcePoint" />
+            <mxPoint x="475.425088435374" y="663.6363636363636" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-20" edge="1" parent="49vyqumV_K5zhQudX8Eo-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#000000;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475.425088435374" y="738.1818181818181" as="sourcePoint" />
+            <mxPoint x="475.4250884353741" y="781.8181818181816" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-21" edge="1" parent="49vyqumV_K5zhQudX8Eo-27" source="49vyqumV_K5zhQudX8Eo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#000000;endArrow=block;endFill=1;" target="49vyqumV_K5zhQudX8Eo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-22" edge="1" parent="49vyqumV_K5zhQudX8Eo-27" source="49vyqumV_K5zhQudX8Eo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#000000;endArrow=block;endFill=1;" target="49vyqumV_K5zhQudX8Eo-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-23" edge="1" parent="49vyqumV_K5zhQudX8Eo-27" source="49vyqumV_K5zhQudX8Eo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#000000;endArrow=block;endFill=1;dashed=1;" target="49vyqumV_K5zhQudX8Eo-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="108.84353741496598" y="820.9090909090908" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="49vyqumV_K5zhQudX8Eo-24" edge="1" parent="49vyqumV_K5zhQudX8Eo-27" source="49vyqumV_K5zhQudX8Eo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=1.5;strokeColor=#666666;endArrow=block;endFill=1;" target="49vyqumV_K5zhQudX8Eo-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
