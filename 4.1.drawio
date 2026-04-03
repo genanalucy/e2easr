@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" pages="12">
   <diagram name="第 1 页" id="Qb6zWLMfGYUqClHvOK_W">
     <mxGraphModel dx="1893" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1026,30 +1026,30 @@
     </mxGraphModel>
   </diagram>
   <diagram id="P6Z4zipaIK0iCjBsZpT-" name="第 9 页">
-    <mxGraphModel dx="1233" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="t7AfcLJT71qn8InaF0pp-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#666666;fontSize=15;" value="输入语音特征&#xa;Input Speech Features" vertex="1">
-          <mxGeometry height="52.3076923076923" width="123.33333333333334" x="543.3333333333334" y="139.74358974358972" as="geometry" />
+          <mxGeometry height="52.3076923076923" width="123.33333333333334" x="663.3333333333334" y="149.74358974358972" as="geometry" />
         </mxCell>
         <mxCell id="t7AfcLJT71qn8InaF0pp-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#D79B00;fontSize=15;" value="前馈网络（半步残差）&#xa;Feed Forward Module (1/2 Step Residual)" vertex="1">
-          <mxGeometry height="61.025641025641015" width="190.6060606060606" x="509.6969696969697" y="261.79487179487177" as="geometry" />
+          <mxGeometry height="61.025641025641015" width="190.6060606060606" x="629.6969696969697" y="271.79487179487177" as="geometry" />
         </mxCell>
         <mxCell id="t7AfcLJT71qn8InaF0pp-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCE6F1;strokeColor=#6C8EBF;fontSize=15;" value="多头自注意力&#xa;Multi-Head Self-Attention" vertex="1">
-          <mxGeometry height="61.025641025641015" width="190.6060606060606" x="509.6969696969697" y="348.97435897435895" as="geometry" />
+          <mxGeometry height="61.025641025641015" width="190.6060606060606" x="629.6969696969697" y="358.97435897435895" as="geometry" />
         </mxCell>
         <mxCell id="t7AfcLJT71qn8InaF0pp-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#82B366;fontSize=15;" value="卷积模块&#xa;Convolution Module" vertex="1">
-          <mxGeometry height="61.025641025641015" width="190.6060606060606" x="509.6969696969697" y="436.15384615384613" as="geometry" />
+          <mxGeometry height="61.025641025641015" width="190.6060606060606" x="629.6969696969697" y="446.15384615384613" as="geometry" />
         </mxCell>
         <mxCell id="t7AfcLJT71qn8InaF0pp-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#D79B00;fontSize=15;" value="前馈网络（半步残差）&#xa;Feed Forward Module (1/2 Step Residual)" vertex="1">
-          <mxGeometry height="61.025641025641015" width="190.6060606060606" x="509.6969696969697" y="523.3333333333333" as="geometry" />
+          <mxGeometry height="61.025641025641015" width="190.6060606060606" x="629.6969696969697" y="533.3333333333333" as="geometry" />
         </mxCell>
         <mxCell id="t7AfcLJT71qn8InaF0pp-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8F8F8;strokeColor=#999999;fontSize=15;" value="层归一化&#xa;Layer Normalization" vertex="1">
-          <mxGeometry height="52.3076923076923" width="156.96969696969697" x="526.5151515151515" y="610.5128205128206" as="geometry" />
+          <mxGeometry height="52.3076923076923" width="156.96969696969697" x="646.5151515151515" y="620.5128205128206" as="geometry" />
         </mxCell>
         <mxCell id="t7AfcLJT71qn8InaF0pp-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#666666;fontSize=15;" value="编码输出表示&#xa;Encoded Representations" vertex="1">
-          <mxGeometry height="52.3076923076923" width="123.33333333333334" x="543.3333333333334" y="697.6923076923077" as="geometry" />
+          <mxGeometry height="52.3076923076923" width="123.33333333333334" x="663.3333333333334" y="707.6923076923077" as="geometry" />
         </mxCell>
         <mxCell id="t7AfcLJT71qn8InaF0pp-11" edge="1" parent="1" source="t7AfcLJT71qn8InaF0pp-3" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="t7AfcLJT71qn8InaF0pp-5">
           <mxGeometry relative="1" as="geometry" />
@@ -1118,7 +1118,7 @@
           <mxGeometry height="30" width="431" x="10" y="83.59" as="geometry" />
         </mxCell>
         <mxCell id="t7AfcLJT71qn8InaF0pp-17" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="610.26" width="410" x="390" y="70" as="geometry" />
+          <mxGeometry height="610.26" width="410" x="510" y="70" as="geometry" />
         </mxCell>
         <mxCell id="t7AfcLJT71qn8InaF0pp-2" parent="t7AfcLJT71qn8InaF0pp-17" style="text;html=1;fontSize=20;fontStyle=1;align=center;strokeColor=none;fillColor=none;" value="Conformer 编码器结构示意图&#xa;Conformer Encoder Architecture" vertex="1">
           <mxGeometry height="43.59000000000001" width="409.99999999999994" as="geometry" />
@@ -1180,6 +1180,127 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T4vMqZ9CMN0DkcUbWQid-17" edge="1" parent="T7nLc-S0C5fMYaE2ElnW-1" source="T4vMqZ9CMN0DkcUbWQid-8" style="endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;" target="T4vMqZ9CMN0DkcUbWQid-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kcY-eeAYs5AdQBSNmfed" name="第 11 页">
+    <mxGraphModel dx="1418" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Puuk91eYkr2ykjP_yh49-58" parent="1" style="text;html=1;fontSize=20;fontStyle=1;align=center;strokeColor=none;fillColor=none;" value="流式端到端 ASR 的块处理与缓存机制&#xa;Streaming ASR: Chunk Processing and Cache Mechanism" vertex="1">
+          <mxGeometry height="50" width="800" x="14" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Puuk91eYkr2ykjP_yh49-70" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="150" width="770" x="10" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Puuk91eYkr2ykjP_yh49-59" parent="Puuk91eYkr2ykjP_yh49-70" style="rounded=1;fillColor=#eeeeee;strokeColor=#666666;fontSize=15;" value="输入特征序列&#xa;Input Features" vertex="1">
+          <mxGeometry height="45" width="150.65217391304347" y="7.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Puuk91eYkr2ykjP_yh49-60" parent="Puuk91eYkr2ykjP_yh49-70" style="rounded=1;fillColor=#DCE6F1;strokeColor=#6C8EBF;fontSize=15;" value="分块处理&#xa;Chunk Processing" vertex="1">
+          <mxGeometry height="45" width="167.3913043478261" x="184.13043478260872" y="7.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Puuk91eYkr2ykjP_yh49-71" edge="1" parent="Puuk91eYkr2ykjP_yh49-70" source="Puuk91eYkr2ykjP_yh49-61" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#82B366;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;" target="Puuk91eYkr2ykjP_yh49-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puuk91eYkr2ykjP_yh49-61" parent="Puuk91eYkr2ykjP_yh49-70" style="rounded=1;fillColor=#FCE4D6;strokeColor=#D79B00;fontSize=15;fontStyle=1;" value="流式编码器&#xa;Streaming Encoder" vertex="1">
+          <mxGeometry height="60" width="184.13043478260872" x="385" as="geometry" />
+        </mxCell>
+        <mxCell id="Puuk91eYkr2ykjP_yh49-62" parent="Puuk91eYkr2ykjP_yh49-70" style="rounded=1;fillColor=#eeeeee;strokeColor=#666666;fontSize=15;" value="逐步输出&#xa;Incremental Output" vertex="1">
+          <mxGeometry height="45" width="167.3913043478261" x="602.6086956521739" y="7.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Puuk91eYkr2ykjP_yh49-69" edge="1" parent="Puuk91eYkr2ykjP_yh49-70" source="Puuk91eYkr2ykjP_yh49-63" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#82B366;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;" target="Puuk91eYkr2ykjP_yh49-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puuk91eYkr2ykjP_yh49-63" parent="Puuk91eYkr2ykjP_yh49-70" style="rounded=1;fillColor=#E2F0D9;strokeColor=#82B366;fontSize=15;" value="缓存 / 记忆&#xa;Cache / Memory" vertex="1">
+          <mxGeometry height="45" width="184.13043478260872" x="385" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Puuk91eYkr2ykjP_yh49-64" edge="1" parent="Puuk91eYkr2ykjP_yh49-70" source="Puuk91eYkr2ykjP_yh49-59" style="endArrow=block;strokeWidth=2;strokeColor=#666666;" target="Puuk91eYkr2ykjP_yh49-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puuk91eYkr2ykjP_yh49-65" edge="1" parent="Puuk91eYkr2ykjP_yh49-70" source="Puuk91eYkr2ykjP_yh49-60" style="endArrow=block;strokeWidth=2;strokeColor=#666666;" target="Puuk91eYkr2ykjP_yh49-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puuk91eYkr2ykjP_yh49-66" edge="1" parent="Puuk91eYkr2ykjP_yh49-70" source="Puuk91eYkr2ykjP_yh49-61" style="endArrow=block;strokeWidth=2;strokeColor=#666666;" target="Puuk91eYkr2ykjP_yh49-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iNkXhNJHpgoQA8M4xX4j" name="第 12 页">
+    <mxGraphModel dx="1418" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-23" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="920" width="730" x="80" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-1" parent="UnBI8bY6PbwtUr9Uuemo-23" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#000000;" value="wav2vec 2.0 结构示意图&#xa;wav2vec 2.0 Architecture" vertex="1">
+          <mxGeometry height="69.24731182795699" width="306.6" x="80.30000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-2" parent="UnBI8bY6PbwtUr9Uuemo-23" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#666666;fillColor=#eeeeee;fontSize=15;fontStyle=0;align=center;verticalAlign=middle;" value="原始语音波形&#xa;Raw Speech Waveform" vertex="1">
+          <mxGeometry height="79.13978494623656" width="197.10000000000005" x="135.05" y="98.9247311827957" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-3" parent="UnBI8bY6PbwtUr9Uuemo-23" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;strokeColor=#6c8ebf;strokeWidth=3;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="553.9784946236559" width="467.2000000000001" y="217.63440860215053" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-4" parent="UnBI8bY6PbwtUr9Uuemo-23" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=16;fontStyle=1;fontColor=#000000;" value="wav2vec 2.0 预训练框架&#xa;wav2vec 2.0 Pre-training Framework" vertex="1">
+          <mxGeometry height="49.46236559139785" width="204.40000000000003" x="21.900000000000002" y="237.4193548387097" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-5" parent="UnBI8bY6PbwtUr9Uuemo-23" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#999999;fillColor=#eeeeee;fontSize=15;align=center;verticalAlign=middle;" value="卷积特征编码器&#xa;Convolutional Feature Encoder" vertex="1">
+          <mxGeometry height="83.09677419354838" width="313.90000000000003" x="76.65" y="296.7741935483871" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-6" parent="UnBI8bY6PbwtUr9Uuemo-23" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#6c8ebf;fillColor=#dbe5f1;fontSize=15;align=center;verticalAlign=middle;" value="潜在表示 z&#xa;Latent Representations z" vertex="1">
+          <mxGeometry height="73.20430107526882" width="270.1" x="98.55000000000003" y="420.4301075268817" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-7" parent="UnBI8bY6PbwtUr9Uuemo-23" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#d79b00;fillColor=#fce5cd;fontSize=15;align=center;verticalAlign=middle;" value="掩码操作&#xa;Masking" vertex="1">
+          <mxGeometry height="73.20430107526882" width="270.1" x="98.55000000000003" y="529.247311827957" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-8" parent="UnBI8bY6PbwtUr9Uuemo-23" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#82b366;fillColor=#d5e8d4;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" value="上下文网络（Transformer）&#xa;Context Network (Transformer)" vertex="1">
+          <mxGeometry height="85.0752688172043" width="357.7000000000001" x="54.75000000000001" y="638.0645161290323" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-9" parent="UnBI8bY6PbwtUr9Uuemo-23" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#999999;fillColor=#eeeeee;fontSize=15;align=center;verticalAlign=middle;" value="上下文表示 c&#xa;Context Representations c" vertex="1">
+          <mxGeometry height="73.20430107526882" width="233.60000000000005" x="116.80000000000003" y="796.3440860215054" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-10" parent="UnBI8bY6PbwtUr9Uuemo-23" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#9673a6;fillColor=#e1d5e7;fontSize=15;align=center;verticalAlign=middle;" value="离散化模块&#xa;Quantization Module" vertex="1">
+          <mxGeometry height="73.20430107526882" width="189.80000000000004" x="503.7000000000001" y="420.4301075268817" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-11" parent="UnBI8bY6PbwtUr9Uuemo-23" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#9673a6;fillColor=#e1d5e7;fontSize=15;align=center;verticalAlign=middle;" value="离散目标 q&#xa;Quantized Targets q" vertex="1">
+          <mxGeometry height="73.20430107526882" width="189.80000000000004" x="503.7000000000001" y="529.247311827957" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-12" parent="UnBI8bY6PbwtUr9Uuemo-23" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#b85450;fillColor=#f8cecc;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" value="对比学习目标&#xa;Contrastive Objective" vertex="1">
+          <mxGeometry height="85.0752688172043" width="262.8" x="467.2000000000001" y="677.6344086021505" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-13" parent="UnBI8bY6PbwtUr9Uuemo-23" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#cccccc;dashed=1;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="利用上下文表示预测被遮蔽位置对应的离散目标&#xa;Predict quantized targets for masked time steps" vertex="1">
+          <mxGeometry height="69.24731182795699" width="292" x="368.65000000000003" y="850.752688172043" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-14" edge="1" parent="UnBI8bY6PbwtUr9Uuemo-23" source="UnBI8bY6PbwtUr9Uuemo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;endArrow=block;endFill=1;" target="UnBI8bY6PbwtUr9Uuemo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-15" edge="1" parent="UnBI8bY6PbwtUr9Uuemo-23" source="UnBI8bY6PbwtUr9Uuemo-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;endArrow=block;endFill=1;" target="UnBI8bY6PbwtUr9Uuemo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-16" edge="1" parent="UnBI8bY6PbwtUr9Uuemo-23" source="UnBI8bY6PbwtUr9Uuemo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;endArrow=block;endFill=1;" target="UnBI8bY6PbwtUr9Uuemo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-17" edge="1" parent="UnBI8bY6PbwtUr9Uuemo-23" source="UnBI8bY6PbwtUr9Uuemo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;endArrow=block;endFill=1;" target="UnBI8bY6PbwtUr9Uuemo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-18" edge="1" parent="UnBI8bY6PbwtUr9Uuemo-23" source="UnBI8bY6PbwtUr9Uuemo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;endArrow=block;endFill=1;" target="UnBI8bY6PbwtUr9Uuemo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-19" edge="1" parent="UnBI8bY6PbwtUr9Uuemo-23" source="UnBI8bY6PbwtUr9Uuemo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;endArrow=block;endFill=1;" target="UnBI8bY6PbwtUr9Uuemo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-20" edge="1" parent="UnBI8bY6PbwtUr9Uuemo-23" source="UnBI8bY6PbwtUr9Uuemo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;endArrow=block;endFill=1;" target="UnBI8bY6PbwtUr9Uuemo-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-21" edge="1" parent="UnBI8bY6PbwtUr9Uuemo-23" source="UnBI8bY6PbwtUr9Uuemo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;endArrow=block;endFill=1;" target="UnBI8bY6PbwtUr9Uuemo-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UnBI8bY6PbwtUr9Uuemo-22" edge="1" parent="UnBI8bY6PbwtUr9Uuemo-23" source="UnBI8bY6PbwtUr9Uuemo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;endArrow=block;endFill=1;" target="UnBI8bY6PbwtUr9Uuemo-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
